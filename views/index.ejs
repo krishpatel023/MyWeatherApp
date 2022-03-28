@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Info</title>
+    <link rel="stylesheet" href="css/styles.css"/> 
+</head>
+<body>
+    <div class="main-content">
+        <header>
+            <h2>Weather App</h2>
+        </header>
+        <article class="widget">
+            <form class="weatherLocation" action="/" method="POST">
+                <input type="text" name="cityName" id="cityInput">
+                <button class="font2" type="submit">Go</button>
+                </form>
+            <div class="weatherIcon"><i class="wi"><img src="<%= img %>"></i></div>
+            <div class="weatherInfo">
+                <div class="temperature"><span><p><%= temp1 %></p></span></div>
+                <div class="description">    
+                    <div class="weatherCondition"><p><%= des %></p></div>    
+                    <div class="place"><%= place %></div>
+                </div>
+            </div>
+            <div class="date"><p class="date1"><%= date1 %></p></div>
+            
+        </article>
+        
+    </div>
+
+
+</body>
+</html>

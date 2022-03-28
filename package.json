@@ -1,0 +1,16 @@
+{
+  "name": "weather-app-stige",
+  "version": "1.0.0",
+  "description": "It is built during the Stige Internship Program. Node.js project using express, ejs where we fetch the weather data from weather api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krish Patel",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+  
+}

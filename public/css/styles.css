@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+
+body{
+  margin:0;
+  padding:0;
+  background-image: url('https://i.ibb.co/4j1DyX5/1129092.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  min-height: 100vh;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.main-content h2{
+  font-size: 2em;
+  font-weight:800;
+  margin-top: -1em;
+}
+header{
+  display: flex;
+  justify-content: center;
+}
+.widget{
+  
+  max-width: 30em;
+  min-width: 18em;
+
+  text-align: center;
+  background: rgba(162, 199, 255, 0.466);
+  border-radius: .5em;
+  height: 25em;
+  
+}
+#cityInput{
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  border-bottom: 0.1px solid grey;
+  margin-top: 4em;
+}
+#cityInput:focus{
+  outline: none;
+}
+.weatherIcon{
+  margin-top: 1em;
+}
+.weatherIcon i{
+  padding-top: 0px;
+}
+.weatherIcon img{
+  height: 150px;
+}
+.weatherInfo{
+  margin-top: 1em;
+  line-height: .5em;
+}
+.weatherLocation {
+  border-radius: 2px;
+}
