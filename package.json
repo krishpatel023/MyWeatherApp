@@ -4,7 +4,8 @@
   "description": "It is built during the Stige Internship Program. Node.js project using express, ejs where we fetch the weather data from weather api.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
   },
   "author": "Krish Patel",
   "license": "ISC",

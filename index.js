@@ -1,6 +1,7 @@
 const express = require("express");
 const https = require("https");
 const date = require(__dirname + "/date.js");
+const port = process.env.PORT || 3000;
 
 const app = express();
 const temp="";
@@ -51,6 +52,6 @@ app.get("/ok", function(req, res){
              res.write("<img src="+imgurl+">"); 
              res.send();
 })
-app.listen(3000, function(){
+app.listen(port, function(){
     console.log("Server is running on port 3000.");
 })
